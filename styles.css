@@ -13,33 +13,53 @@
   }
   
 #contact {
-    background-color: whitesmoke;
+    background-color: lightgrey;
     color: black;
     padding: 40px;
     text-align: left;
+  }
+
+#footer {
+    background-color: darkblue;
+    color: gold;
+    font-style: italic;
+    padding: 40px;
+    text-align: center;
   }
   
 #global {
   
     font-family: 'Trebuchet MS', sans-serif;
+    width: 100%;
+    padding-top: 3%;
+    margin: 0;
   }
   
 #navbar {
     list-style-type: none;
+    height: auto;
     margin: 0;
-    padding: 10;
+    padding: 1%;
     text-align: right;
     background-color: darkblue;
     link-color: yellow;
-    position: fixed; /* Set the navbar to fixed position */
+    position: fixed;
+    width: 100%;
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
   }
   
 li {
     display: inline;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
   }
-  
+
+#rhs {
+  padding-right: 2%;
+
+}
+
 a:link {
     color: gold;
     background-color: transparent;
@@ -101,3 +121,14 @@ border: 15px solid lightsalmon;
 padding: 50px;
 margin: 20px;
   }
+
+.page {
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  }
+
+.body {
+
+}
