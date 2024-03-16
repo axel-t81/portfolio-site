@@ -1,19 +1,20 @@
 #welcome-section {
-    background-color: lightsalmon;
+    background-color: lightskyblue;
     color: black;
     padding: 40px;
     text-align: center;
+    display: flex;
   }
   
 #projects {
-    background-color: OldLace;
+    background-color: #e6f7ff;
     color: black;
     padding: 40px;
     text-align: left;
   }
   
 #contact {
-    background-color: lightgrey;
+    background-color: lightskyblue;
     color: black;
     padding: 40px;
     text-align: left;
@@ -42,7 +43,7 @@
     padding: 1%;
     text-align: right;
     background-color: darkblue;
-    link-color: yellow;
+    link-color: gold;
     position: fixed;
     width: 100%;
     top: 0; /* Position the navbar at the top of the page */
@@ -61,36 +62,32 @@ li {
 }
 
 a:link {
-    color: gold;
+    color: darkblue;
     background-color: transparent;
     text-decoration: none;
     padding: 1%;
   }
 a:visited {
+  color: yellowgreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
     color: gold;
     background-color: transparent;
     text-decoration: none;
   }
-a:hover {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
+
 #profile-link:link {
-    color: blue; background-color: transparent;
+    color: darkblue; background-color: transparent;
     text-decoration: none;
     padding: 1%;
   }
-a:visited {
-    color: gold;
-    background-color: transparent;
+
+#navbar:link {
+    color: gold; background-color: transparent;
     text-decoration: none;
-  }
-a:hover {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
+    padding: 1%;
   }
   
 /* For mobile phones: */
@@ -115,20 +112,35 @@ width: 100%;
 }
 
 .project-tile {
-background-color: whitesmoke;
+background-color: #f2f2f2;
 width: 30%;
-border: 15px solid lightsalmon;
+border: 15px solid darkblue;
 padding: 50px;
 margin: 20px;
+text-shadow: -1px 1px 2px gold;
+color: darkblue;
   }
 
 .page {
-  background-color: whitesmoke;
+  background-color: #f2f2f2;
   width: 100%;
   padding: 0px;
   margin: 0px;
   }
 
+#title {
+  align-items: center;
+}
+
+.title {
+  align-items: center;
+}
+
+#memoji {
+  max-height: 120px;
+  filter: drop-shadow(-5px 10px 15px black);
+
+}
 .body {
 
 }
