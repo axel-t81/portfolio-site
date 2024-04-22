@@ -48,6 +48,7 @@
     position: fixed;
     width: 100%;
     top: 0; /* Position the navbar at the top of the page */
+    z-index: 1; /* This will make it appear in front (not behind) of the memoji image */
   }
 
 .navbar li {
