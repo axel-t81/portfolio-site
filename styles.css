@@ -7,7 +7,7 @@
     align-items: center;
   }
   
-#maincontent {
+.main-content {
     background-color: #e6f7ff;
     color: black;
     padding: 40px;
