@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Kojrey's Portfolio Site</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KNK06VQ1HN"></script>
     <script>
@@ -16,11 +19,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body id="global">
+<body class="global">
 
-<div class="page">
+<main class="page">
 
-    <section>
+    <nav>
 
         <ul class="navbar">
             <li><a href="#about">About</a></li>
@@ -28,33 +31,41 @@
             <li id="rhs"><a href="#contact">Contact</a></li>
         </ul>
 
-    </section>
+    </nav>
 
     <section class="welcome-section">
             <div class="flex-child-1"><img id="memoji" alt="Kojrey's Memoji" src="img/kojrey-memoji.png"></div>
             <div class="flex-child-2"></div><h1 id="title">Kojrey's Portfolio Site</h1></div>
     </section>
 
-    <div class="main-content">
+    <section class="main-content">
 
         <section id="projects">
 
-            <h1>A directory of Projects.</h1>
+            <h1>A directory of Projects:</h1>
 
-            <h3>Completed</h3>
+            <h4>Completed</h4>
 
-            <h3>In Progress</h3>
+            <h4>In Progress</h4>
 
-            <p>
+            <div class="grid-container">
 
                 <div class="project-tile">
-                    <strong><a href="https://www.tracyassociates.com.au" target="_blank">Tracy & Associates Plan Management</a></strong>
+                    <strong>Coming soon...</strong>
                 </div>
 
                 <div class="project-tile">
                     <strong>Coming soon...</strong>
                 </div>
-            </p>
+
+                <div class="project-tile">
+                    <strong>Coming soon...</strong>
+                </div>
+
+                <div class="project-tile">
+                    <strong>Coming soon...</strong>
+                </div>
+            </div>
 
         </section>
 
@@ -62,9 +73,7 @@
 
         <section id="about">
 
-            <h1>About Kojrey.</h1>
-
-            <h3>My story for you</h3>
+            <h1>About Kojrey:</h1>
 
             <p>
                 Coming soon...
@@ -76,11 +85,11 @@
 
         <section id="eduqual">
 
-            <h1>Qualifications and Education.</h1>
+            <h1>Qualifications and Education:</h1>
 
-            <h3>Completed</h3>
+            <h4>Completed</h4>
 
-                <h4>Technology</h4>
+                <i>Technology</i>
 
                         <ul>
                             <li><b>2024</b> Chainlink Bootcamp (April, English)</li>
@@ -92,7 +101,7 @@
                             <li><b>2007</b> UTS Communication for IT Professionals (Autumn, 31265)</li>
                         </ul>    
 
-                <h4>Other</h4>
+                <i>Other</i>
 
                 <p>
                     <ul>
@@ -100,44 +109,50 @@
                     </ul>
                 </p>
 
-            <h3>In Progress</h3>
+            <h4>In Progress</h4>
 
-                <h4>Technology</h4>
+                <i>Technology</i>
 
                     <p>
-                        Coming soon... Test browser-sync
+                        Coming soon
                     </p>
 
-                <h4>Other</h4>
+                <i>Other</i>
 
                     <ul>
                             <li>None</li>
                     </ul>    
         </section>
 
-    </div>
+    </section>
 
     <section id="contact">
 
-        <h1>Get in Contact</h1>
+        <h1>Get in Contact:</h1>
 
         <h3>Let's talk online</h3>
 
-        <p><a href="https://twitter.com./kojrey_codes" id="profile-link" target="_blank">Twitter</a></p>
+        <div class="profile-link">
+            <a href="https://twitter.com./kojrey_codes" rel="noopener" target="_blank">Twitter</a>
+            <!-- <a href="https://twitter.com./kojrey_codes" rel="noopener" target="_blank">Twitter</a>
+            <a href="https://twitter.com./kojrey_codes" rel="noopener" target="_blank">Twitter</a>
+            <a href="https://twitter.com./kojrey_codes" rel="noopener" target="_blank">Twitter</a>
+            <a href="https://twitter.com./kojrey_codes" rel="noopener" target="_blank">Twitter</a> -->
+        </div>
 
         <h3>Let's talk IRL</h3>
 
     </section>
 
-    <section id="footer">
+    <footer class="footer">
 
         <p>"We but mirror the world.
             <br/>All the tendencies present in the outer world are to be found in the world of our body. 
             <br/>If we could change ourselves, the tendencies in the world would also change. 
             <br/>As a man changes his own nature, so does the attitude of the world change towards him."</p>
 
-    </section>
+    </footer>
 
-</div>
+</main>
 </body>
 </html>
