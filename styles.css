@@ -183,6 +183,11 @@ color: darkblue;
 
 }
 
+.icon {
+  max-width: 4%;
+  margin-top: 1%;
+}
+
 .flex-child-1 {
   width: 10%;
   height: 5%;
@@ -202,4 +207,9 @@ color: darkblue;
 .flex-child-4 {
   flex-grow: 0.4;
   align-items: center;
+}
+
+.calendly-inline-widget {
+  filter: drop-shadow(-5px 10px 15px black);
+  margin-top: 8%;
 }
