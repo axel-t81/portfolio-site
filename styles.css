@@ -209,7 +209,24 @@ color: darkblue;
   align-items: center;
 }
 
+.flex-child-5 {
+  width: 70%;
+}
+
+.flex-child-6 {
+  width: 30%;
+}
+
 .calendly-inline-widget {
   filter: drop-shadow(-5px 10px 15px black);
   margin-top: 8%;
+}
+
+.dogs {
+  width: 10%;
+  height: 10%;
+  margin: 0px 5px 0px 0px;
+  padding: 0px;
+  float: left;
+  border: 3px solid black;
 }
