@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .welcome-section {
     background-color: lightskyblue;
     color: black;
@@ -209,6 +213,30 @@ color: darkblue;
   align-items: center;
 }
 
+/* Code from w3schools https://www.w3schools.com/howto/howto_css_two_columns.asp */
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+}
+
+.left {
+  width: 70%;
+}
+
+.right {
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* End Code from w3schools https://www.w3schools.com/howto/howto_css_two_columns.asp */
+
+
 .flex-child-5 {
   width: 70%;
 }
@@ -229,4 +257,20 @@ color: darkblue;
   padding: 0px;
   float: left;
   border: 3px solid black;
+}
+
+/* Parallax guide from https://www.w3schools.com/howto/howto_css_parallax.asp */
+.parallax {
+  /* The image used */
+  background-image: url("img/rocket.png");
+
+  /* Set a specific height */
+  min-height: 100em;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+;
 }
